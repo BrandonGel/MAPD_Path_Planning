@@ -1,0 +1,13 @@
+{
+    "Configuration" : {
+        "map_filepath" : "final_image.png",
+        "api_key" : "AIzaSyA0JqJ_EeDsnIApAgl2k0Do2IfDmdLH6IU"
+    },
+
+    "Robot" : {
+        "robot_radius" : 1.0,
+        "maximum_linear_velocity" : 2.0,
+        "maximum_angular_velocity" : 1.57
+    }
+
+}

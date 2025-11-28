@@ -1,0 +1,25 @@
+{
+    "Defaults": {
+        "input_path": "",
+        "input_name": "environment.yaml",
+        "visual_postfix": "_tmp"
+    },
+    "User": {
+        "Number_of_tasks": 1,
+        "__options__": "Any number greater than or equal to 1",
+        "__comments__": "The total number of tasks to be done by all the AMRs.",
+        "Assembly_Line_Frequency": [
+            60
+        ],
+        "__comments__": "Time Interval between tasks generated at each assembly line in seconds",
+        "Slow_factor": 2,
+        "__options__": "Any number greater than or equal to 1",
+        "__comments__": "Higher the slow_factor, slower the animation will be. Recommended is 2 or 3",
+        "Video": "Yes",
+        "__options__": "Yes or No",
+        "__comments__": "Yes if a simulation video is needed to be saved",
+        "Number_of_dynamic_obstacles": 0,
+        "__options__": "Any number from 0 to 5",
+        "__comments__": "Add the number of dynamic obstacles present in the warehouse. These will be randomly generated on the map. Higher the number, more the chances of algorithm to fail."
+    }
+}
